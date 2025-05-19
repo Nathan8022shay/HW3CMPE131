@@ -37,7 +37,7 @@ int main() {
         cin >> userChoice;
 
         if (userChoice == 1) {
-            cin.ignore();  // clear newline left in input buffer
+            cin.ignore();
             string newTask;
             cout << "Enter the task's description: ";
             getline(cin, newTask);
